@@ -32,13 +32,13 @@ document.querySelector("#skip").addEventListener("click", function() {
 document.querySelector("#mute").addEventListener("click", function() {
 	volumeValue = document.querySelector("#mute").value
 	if (volumeValue = video.muted) {
-		document.querySelector("#mute").innerHTML="Unmuted"
+		document.querySelector("#mute").innerHTML="Mute"
 		video.muted=false
 		
 	}
 
 	else {
-		document.querySelector("#mute").innerHTML="Muted"
+		document.querySelector("#mute").innerHTML="Unmute"
 		video.muted=true
 	}
 });
