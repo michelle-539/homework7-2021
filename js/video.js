@@ -19,7 +19,7 @@ document.querySelector("#pause").addEventListener("click", function() {
 document.querySelector("#skip").addEventListener("click", function() {
 	console.log("Skipping ahead");
 	
-	if (video.currentTime > 67.453967) {
+	if (video.currentTime > 67) {
 		video.currentTime = 0
 		video.play()
 	} 
